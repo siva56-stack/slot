@@ -24,11 +24,88 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+'''<!DOCTYPE html>
+<html>
+<head>
+    <title>Slot Time Table - YOUR NAME</title>
+</head>
+<body>
+    <IMG SRC="logo.png"HEIGHT="150"WIDTH="500"BORDER=6>
+    <h2>Saveetha Engineering College</h2>
+    <h3>SLOT TIME TABLE - SIVA B</h3>
 
+    <table border="1">
+        <tr BGCOLOR="YELLOW">
+            <th>Day/Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">8-10</td>
+            <td>C</td>
+            <td>FREE SLOT</td>
+            <td>C</td>
+            <td>FREE SLOT</td>
+            <td>FREE SLOT</td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">10-12</td>
+            <td>WEB</td>
+            <td>WEB</td>
+            <td>FREE SLOT</td>
+            <td>FREE SLOT</td>
+            <td>FREE SLOT</td>
+        </tr>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">12-1</td>
+            <td COLSPAN=5 ALIGN="CENTER">LUNCH</td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">1-3</td>
+            <td>FREE SLOT</td>
+            <td>WEB</td>
+            <td>MM</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">3-5</td>
+            <td>FREE SLOT</td>
+            <td>FREE SLOT</td>
+            <td>WEB</td>
+            <td>FREE SLOT</td>
+            <td>FREE SLOT</td>
+        </tr>
+    </table>
+
+    <h3>Subjects</h3>
+    <table border="1">
+        <tr>
+            <th>S. No.</th>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>19AI414</td>
+            <td>Fundamentals of Web Application Development (FWAD)</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>19AI304</td>
+            <td>Fundamentas of c Programming (C)</td>
+        </tr>
+    </table>
+</body>
+</html>'''
 
 ## OUTPUT
+<img width="1910" height="1027" alt="Screenshot 2025-12-09 103948" src="https://github.com/user-attachments/assets/f39e97ff-e1ca-4422-8220-95f089a3c20a" />
 
-INCLUDE YOUR OUTPUT IMAGE
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
